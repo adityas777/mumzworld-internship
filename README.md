@@ -50,7 +50,7 @@ pip install -r requirements.txt
 export GROQ_API_KEY=your_key_here
 
 # Windows CMD
-set GROQ_API_KEY=your_key_here
+$env:GROQ_API_KEY="your_key_here"
 
 # Windows PowerShell
 $env:GROQ_API_KEY="your_key_here"
